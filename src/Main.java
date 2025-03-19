@@ -54,7 +54,7 @@ public class Main {
         System.out.println(differenceBetweenTheMassesOfFighters);
 
         System.out.println("Задача7");
-        var balanceBetweenScales = boxerSecond%boxerFirst;
+        var balanceBetweenScales = boxerSecond % boxerFirst;
         System.out.println(balanceBetweenScales);
 
         System.out.println("Задача8");
