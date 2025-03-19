@@ -46,24 +46,24 @@ public class Main {
         System.out.println(frog);
 
         System.out.println("Задача6");
-        var a = 78.2;
-        var b = 82.7;
-        var c = a + b;
-        System.out.println(c);
-        var d = b - a;
-        System.out.println(d);
+        var boxerFirst = 78.2;
+        var boxerSecond = 82.7;
+        var totalMassOfTwoFightersc = boxerFirst + boxerSecond;
+        System.out.println(totalMassOfTwoFightersc);
+        var differenceBetweenTheMassesOfFighters = boxerSecond - boxerFirst;
+        System.out.println(differenceBetweenTheMassesOfFighters);
 
         System.out.println("Задача7");
-        var z = b%a;
-        System.out.println(z);
+        var balanceBetweenScales = boxerSecond%boxerFirst;
+        System.out.println(balanceBetweenScales);
 
         System.out.println("Задача8");
-        var x = 640;
-        var v = 8;
-        var n = x/v;
-        System.out.println("Всего работников в компании - " + n + " человек");
-        var hum = n + 94;
-        var caat = hum/v;
-        System.out.println("Если в компании работает " + hum + " человек, то всего "+ caat +" часов работы может быть поделено между сотрудниками");
+        var workingHoursAreDividedBetweenEmployees = 640;
+        var eachEmployeeIsDedicatedToWork = 8;
+        var howManyWorkersInTotal = workingHoursAreDividedBetweenEmployees / eachEmployeeIsDedicatedToWork;
+        System.out.println("Всего работников в компании - " + howManyWorkersInTotal + " человек");
+        var manIsWorking = howManyWorkersInTotal + 94;
+        var caat = manIsWorking / eachEmployeeIsDedicatedToWork;
+        System.out.println("Если в компании работает " + manIsWorking + " человек, то всего "+ caat +" часов работы может быть поделено между сотрудниками");
     }
 }
