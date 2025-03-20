@@ -146,15 +146,15 @@ public class Main {
         System.out.println("В среднем может потребоваться " + averageDay + " дней");
 
         System.out.println("Задача8");
-        int Masha = 67760;
-        int Deniz = 83690;
-        int Krictina = 76230;
-        float increasedMasha = Masha * 1.1F;
-        float increasedDeniz = Deniz * 1.1F;
-        float increasedKrictina = Krictina * 1.1F;
-        float upMasha = Masha * 12F;
-        float upDeniz = Deniz * 12F;
-        float upKrictina = Krictina * 12F;
+        int masha = 67760;
+        int deniz = 83690;
+        int krictina = 76230;
+        float increasedMasha = masha * 1.1F;
+        float increasedDeniz = deniz * 1.1F;
+        float increasedKrictina = krictina * 1.1F;
+        float upMasha = masha * 12F;
+        float upDeniz = deniz * 12F;
+        float upKrictina = krictina * 12F;
         System.out.println("Маша теперь получает " + upMasha + " рублей. Годовой доход вырос на " + increasedMasha + " рублей");
         System.out.println("Маша теперь получает " + upDeniz + " рублей. Годовой доход вырос на " + increasedDeniz+ " рублей");
         System.out.println("Маша теперь получает " + upKrictina + " рублей. Годовой доход вырос на " + increasedKrictina + " рублей");
