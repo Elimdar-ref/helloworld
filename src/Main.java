@@ -64,7 +64,7 @@ public class Main {
         System.out.println("Всего работников в компании - " + howManyWorkersInTotal + " человек");
         var manIsWorking = howManyWorkersInTotal + 94;
         var caat = manIsWorking / eachEmployeeIsDedicatedToWork;
-           System.out.println("Если в компании работает " + manIsWorking + " человек, то всего "+ caat +" часов работы может быть поделено между сотрудниками");
+        System.out.println("Если в компании работает " + manIsWorking + " человек, то всего "+ caat +" часов работы может быть поделено между сотрудниками");
 
 
         System.out.println("Задача1");
