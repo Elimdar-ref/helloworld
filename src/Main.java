@@ -64,7 +64,7 @@ public class Main {
         System.out.println("Всего работников в компании - " + howManyWorkersInTotal + " человек");
         var manIsWorking = howManyWorkersInTotal + 94;
         var caat = manIsWorking / eachEmployeeIsDedicatedToWork;
-           System.out.println("Если в компании работает " + manIsWorking + " человек, то всего "+ caat +" часов работы может быть поделено между сотрудниками");
+        System.out.println("Если в компании работает " + manIsWorking + " человек, то всего "+ caat +" часов работы может быть поделено между сотрудниками");
 
 
         System.out.println("Задача1");
@@ -158,6 +158,7 @@ public class Main {
         System.out.println("Маша теперь получает " + upMasha + " рублей. Годовой доход вырос на " + increasedMasha + " рублей");
         System.out.println("Маша теперь получает " + upDeniz + " рублей. Годовой доход вырос на " + increasedDeniz+ " рублей");
         System.out.println("Маша теперь получает " + upKrictina + " рублей. Годовой доход вырос на " + increasedKrictina + " рублей");
+
     }
 
 }
