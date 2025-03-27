@@ -29,15 +29,15 @@ public class Main {
         }
         System.out.println();
         System.out.println("Задание №4");
-        int aget = 17;
-        if (aget >= 2 && aget <= 6) {
-            System.out.println("Если возраст человека равен " + aget + " то ему нужно ходить в детский сад");
-        } else if (aget >= 7 && aget <= 17) {
-                System.out.println("Если возраст человека равен " + aget + " то ему нужно ходить в школу");
-            } else if (aget >= 18 && aget <= 24) {
-                    System.out.println("Если возраст человека равен " + aget + " то его место в университете");
-                } else if (aget > 24) {
-                        System.out.println("Если возраст человека равен " + aget + " то ему пора ходить на работу");
+        int ageT = 17;
+        if (ageT >= 2 && ageT <= 6) {
+            System.out.println("Если возраст человека равен " + ageT + " то ему нужно ходить в детский сад");
+        } else if (ageT >= 7 && ageT <= 17) {
+                System.out.println("Если возраст человека равен " + ageT + " то ему нужно ходить в школу");
+            } else if (ageT >= 18 && ageT <= 24) {
+                    System.out.println("Если возраст человека равен " + ageT + " то его место в университете");
+                } else if (ageT > 24) {
+                        System.out.println("Если возраст человека равен " + ageT + " то ему пора ходить на работу");
                     }
                     System.out.println();
                     System.out.println("Задание №5");
